@@ -1,5 +1,5 @@
 <!Doctype <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
  <meta charset ="utf-8">
 
@@ -19,6 +19,8 @@
   <link rel= "stylesheet" href = "bootstrap-3.3.5-dist/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet"  href="bootstrap-3.3.5-dist/css/jquery-ui.min.css">
+    <script src="bootstrap-3.3.5-dist/js/angular.min.js"></script>
+         <script src="bootstrap-3.3.5-dist/js/appcontroller.js"></script>
 	<title>BOOTSTRAP</title>
 </head>
 <body>
@@ -40,6 +42,43 @@
 
 
 </section>
+<section class = "row">
+   <div class = "col-sm-4"  ng-controller = "myUsers">
+  
+  <table>
+  <tr ng-repeat = " x in users">
+  <td>{{x.name}}</td>
+  <td>{{x.age}}</td>
+  <td>{{x.img_url}}</td>
+  	
+
+
+  </tr>
+  	
+
+
+
+  </table>
+ 
+
+
+      </div>
+                  
+                 
+	
+
+
+
+
+
+	
+	
+
+
+
+
+</section>
+
 <br>
 <br>
 <br>
