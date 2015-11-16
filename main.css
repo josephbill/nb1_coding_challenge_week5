@@ -1,0 +1,60 @@
+#div1 {
+
+  background-color: green;
+  	padding: 146px 0px;
+
+}
+body {
+ background-color: black;
+
+
+}
+#div2 {
+
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+  float: left;
+
+
+
+}
+#div3 {
+
+background-color: yellow;
+height: 400px;
+width: 200px;
+float: right;
+
+
+}
+ 
+#div4 {
+
+	background-color: purple;
+	height: 400px;
+	width: 200px;
+	float: right;
+}
+
+#div5 {
+
+	background-color: purple;
+	height: 400px;
+	width: 200px;
+	float: left;
+}
+
+#div6 {
+
+	background-color: purple;
+	height: 400px;
+	width: 200px;
+}
+ #div7 {
+  background-color: white;
+  padding: 146px 0px;
+
+
+
+ }
